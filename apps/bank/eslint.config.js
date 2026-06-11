@@ -9,6 +9,12 @@ export default defineConfig([
   globalIgnores(['dist']),
   {
     files: ['**/*.{ts,tsx}'],
+    rules: {
+      "react-refresh/only-export-components": [
+        "off",
+        { allowExportNames: ["Route"] },
+      ],
+    },
     extends: [
       js.configs.recommended,
       tseslint.configs.recommended,
