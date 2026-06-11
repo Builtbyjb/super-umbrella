@@ -25,6 +25,7 @@ function RouteComponent() {
     }
     setLoading(true);
     localStorage.setItem("authenticated", "true");
+    toast.success("Logged in successfully");
     setTimeout(() => navigate({ to: "/" }), 500);
   }
 
@@ -106,7 +107,9 @@ function RouteComponent() {
                 <Button
                   variant="ghost"
                   onClick={() =>
-                    toast.info("Contact support to reset your password")
+                    toast.info(
+                      "To reset your password, please contact your support manager.",
+                    )
                   }
                   className="text-xs font-medium text-primary hover:underline"
                 >
