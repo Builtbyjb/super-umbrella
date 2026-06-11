@@ -1,0 +1,14 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "super-umbrella",
+  "compatibility_date": "2026-04-17",
+  "pages_build_output_dir": "dist",
+  "env": {
+    "production": {
+      "name": "super-umbrella-production",
+    },
+    "preview": {
+      "name": "super-umbrella-preview",
+    },
+  },
+}
