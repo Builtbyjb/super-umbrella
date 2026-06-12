@@ -14,7 +14,7 @@ export function QuickActions() {
       {actions.map(({ label, icon: Icon }) => (
         <button
           onClick={() =>
-            toast.info(`To ${label}, please contact your support manager.`)
+            toast.info(`To ${label}, please contact the management.`)
           }
           key={label}
           type="button"

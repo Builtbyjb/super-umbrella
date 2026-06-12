@@ -108,7 +108,7 @@ function RouteComponent() {
                   variant="ghost"
                   onClick={() =>
                     toast.info(
-                      "To reset your password, please contact your support manager.",
+                      "To reset your password, please contact the management.",
                     )
                   }
                   className="text-xs font-medium text-primary hover:underline"
