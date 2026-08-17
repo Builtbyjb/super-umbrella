@@ -20,7 +20,7 @@ export type AccountCard = {
 export const account = {
   holder: "Valerie Simms",
   number: "•••• 8842",
-  balance: 18970.63,
+  balance: 19720.68,
   available: 18970.63,
   income: 18970.63,
   spending: 0,
